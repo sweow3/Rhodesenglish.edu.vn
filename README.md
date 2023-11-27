@@ -1,6 +1,6 @@
 # FGP
 
-Tên đề tài: Trang web dạy tiếng Anh
+Tên đề tài: Trung tâm dạy tiếng anh
 
 Đoạn mô tả ngắn:
 
@@ -22,3 +22,7 @@ Các bài học và bài tập phong phú: Trang web sẽ cung cấp các bài h
 Tài liệu học tập đa dạng: Trang web sẽ cung cấp các tài liệu học tập đa dạng, bao gồm sách, bài báo, video,...
 Hỗ trợ trực tuyến: Trang web sẽ cung cấp hỗ trợ trực tuyến cho người học, bao gồm các câu hỏi và câu trả lời, diễn đàn thảo luận,...
 Trang web dạy tiếng Anh của nhóm chúng tôi hy vọng sẽ trở thành một nguồn tài nguyên hữu ích cho những người học tiếng Anh.
+
+cứng: -nộp báo cáo
+      -sổ code mã nguồn
+
