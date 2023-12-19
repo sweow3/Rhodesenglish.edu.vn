@@ -17601,3 +17601,151 @@ p {
         display: none;
     }
 }
+.courses-base {
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.courses-col {
+	flex-basis: 48%;
+	padding: 30px 2px;
+}
+.courses-col img {
+	width: 100%;
+	
+}
+.courses-col h1 {
+	padding-top: 0;
+	font-size: larger;
+}
+.courses-col p {
+	padding: 15px 0 25px;
+}
+.row1 {
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.brandlogo {
+	width: 150%;
+}
+.location {
+	width: 80%;
+	margin: auto;
+	padding: 80px 0;
+}
+.location iframe {
+	width: 100%;
+}
+.contact-us {
+	width: 80%;
+	margin: auto;
+}
+.contact-col {
+	flex-basis: 48%;
+	margin-bottom: 30px;
+}
+.contact-col div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.contact-col div h5 {
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-weight: 400;	
+}
+.contact-col input, .contact-col textarea {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 17px;
+	outline: none;
+	border: 1px solid #ccc;
+}
+.blogcontent {
+	width: 80%;
+	margin: auto;
+	padding: 60px 0;
+}
+.blogleft {
+	flex-basis: 65%;
+}
+.blogleft img {
+	width: 100%;
+}
+.blogleft h2 {
+	color:#222;
+	font-weight: 600;
+	margin: 30px 0;
+}
+.blogright {
+	flex-basis: 32%;
+}
+.blogright h3 {
+	background: #f44336;
+	color: #fff;
+	padding: 7px 0;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.blogright div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #555;
+	padding: 8px;
+	box-sizing: border-box;
+}
+.comment-box {
+	border: 1px solid #ccc;
+	margin: 50px 0;
+	padding: 10px 20px;
+}
+.comment-box h3 {
+	text-align: left;
+}
+.comment-form input, .comment-form textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 15px 0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	background: #f0f0f0;
+}
+.course {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.course h1 {
+	font-size: 36px;
+	font-weight: 600;
+}
+.course p {
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.coursecol {
+	flex-basis: 31%;
+	background: #fff3f3;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.coursecol h3 {
+	text-align: center;
+	font-weight: 600;
+	margin: 10px;
+}
+.coursecol:hover {
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
