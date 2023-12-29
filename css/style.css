@@ -7964,7 +7964,7 @@ button.quote-light-avatar.active {
 	font-weight: 600;
 }
 
-@media (min-width: 412px) {
+@media (max-width: 412px) {
 	.jumbotron-3-title {
 		max-width: 330px;
 	}
@@ -7994,7 +7994,7 @@ button.quote-light-avatar.active {
   }
   
   .jumbotron-3-title {
-    max-width: 450px; /* Giảm chiều rộng max trên màn hình nhỏ */
+    max-width: 250px; /* Giảm chiều rộng max trên màn hình nhỏ */
     margin: 0 auto; /* Căn giữa nếu muốn */
   }
 }
