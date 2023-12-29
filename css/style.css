@@ -7989,8 +7989,8 @@ button.quote-light-avatar.active {
 /* Media query cho màn hình nhỏ (ví dụ: điện thoại di động) */
 @media (max-width: 767.98px) {
   .jumbotron-3-inner {
-    padding-top: 40px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 80px;
   }
   
   .jumbotron-3-title {
