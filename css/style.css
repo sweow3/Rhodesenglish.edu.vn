@@ -7996,8 +7996,8 @@ button.quote-light-avatar.active {
   }
   
   .jumbotron-3-title {
-    max-width: 90%; /* Giảm chiều rộng max trên màn hình nhỏ */
-    font-size: 18px; /* Điều chỉnh kích thước chữ cho màn hình nhỏ */
+    max-width: 0 auto; /* Giảm chiều rộng max trên màn hình nhỏ */
+    font-size: 8; /* Điều chỉnh kích thước chữ cho màn hình nhỏ */
     margin: 0 auto; /* Căn giữa nếu muốn */
   }
 }
@@ -8011,7 +8011,7 @@ button.quote-light-avatar.active {
   
   .jumbotron-3-title {
     max-width: 580px;
-    font-size: 24px; /* Điều chỉnh kích thước chữ cho màn hình vừa */
+    font-size: 12px; /* Điều chỉnh kích thước chữ cho màn hình vừa */
     margin: 0 auto; /* Căn giữa nếu muốn */
   }
   
