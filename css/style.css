@@ -7960,7 +7960,7 @@ button.quote-light-avatar.active {
 }
 
 .jumbotron-3-title {
-	line-height: 1.25;
+	line-height: auto;
 	font-weight: 600;
 }
 
@@ -8011,7 +8011,7 @@ button.quote-light-avatar.active {
 		z-index: -1;
 		top: 30px;
 		left: 30px;
-		font-size: 160px;
+		font-size: auto;
 		font-weight: 900;
 		letter-spacing: -0.02em;
 		text-transform: uppercase;
