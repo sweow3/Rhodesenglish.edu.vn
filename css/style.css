@@ -7965,13 +7965,13 @@ button.quote-light-avatar.active {
 }
 
 @media (max-width: 412px) {
-	.jumbotron-3-title {
+.jumbotron-3-title {
 		max-width: 330px;
-	}
+}
 }
 
 .jumbotron-3-text > * {
-	line-height: 1.2;
+	line-height: auto;
 }
 
 .jumbotron-3-title + * {
