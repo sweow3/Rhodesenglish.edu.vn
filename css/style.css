@@ -17744,3 +17744,7 @@ p {
 .coursecol:hover {
 	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
+.responsive{
+	width: 100%;
+	height: auto;
+}	
