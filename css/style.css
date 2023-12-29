@@ -7964,75 +7964,62 @@ button.quote-light-avatar.active {
 	font-weight: 600;
 }
 
-@media (min-width: 412px) {
-.jumbotron-3-title {
-		min-width: 330px;
-}
-}
-
-.jumbotron-3-text > * {
-	line-height: auto;
+@media (max-width: 479px) {
+	.jumbotron-3-title .svg-wave-line {
+		max-width: 42px;
+	}
 }
 
-.jumbotron-3-title + * {
-	margin-top: 15px;
+@media (min-width: 768px) {
+	.jumbotron-3-inner {
+		padding-top: 80px;
+		padding-bottom: 100px;
+	}
+	.jumbotron-3-title {
+		max-width: 580px;
+	}
+	.jumbotron-3-text {
+		max-width: 600px;
+	}
+	.jumbotron-3-title + * {
+		margin-top: 25px;
+	}
 }
 
-/* Thiết lập các giá trị mặc định dành cho tất cả các thiết bị */
-.jumbotron-3-inner {
-  padding: 40px 0 60px; /* Giá trị mặc định cho padding */
+@media (min-width: 992px) {
+	.jumbotron-3-inner {
+		padding-top: 158px;
+		padding-bottom: 165px;
+	}
 }
 
-.jumbotron-3-title {
-  max-width: 100%; /* Chiều rộng linh hoạt */
-  font-size: 24px; /* Kích thước chữ mặc định */
+@media (min-width: 1200px) {
+	.jumbotron-3-title + * {
+		margin-top: 35px;
+	}
 }
-
-/* Media query cho màn hình nhỏ (ví dụ: điện thoại di động) */
-@media (max-width: 767.98px) {
-  .jumbotron-3-inner {
-    padding-top: 40px;
-    padding-bottom: 50px;
-  }
-  
-  .jumbotron-3-title {
-    max-width: 0 auto; /* Giảm chiều rộng max trên màn hình nhỏ */
-    font-size: 8; /* Điều chỉnh kích thước chữ cho màn hình nhỏ */
-    margin: 0 auto; /* Căn giữa nếu muốn */
-  }
-}
-
-/* Media query cho màn hình vừa (ví dụ: máy tính bảng) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .jumbotron-3-inner {
-    padding-top: 80px;
-    padding-bottom: 100px;
-  }
-  
-  .jumbotron-3-title {
-    max-width: 580px;
-    font-size: 12px; /* Điều chỉnh kích thước chữ cho màn hình vừa */
-    margin: 0 auto; /* Căn giữa nếu muốn */
-  }
-  
-  .jumbotron-3-text {
-    max-width: 600px;
-    margin: 0 auto; /* Căn giữa nếu muốn */
-  }
-  
-  .jumbotron-3-title + * {
-    margin-top: 25px;
-  }
-}
-
-/* Các media query khác ... */
 
 .text-decoration {
-  position: relative;
-  z-index: 2;
+	position: relative;
+	z-index: 2;
 }
 
-/* Các media query khác ... */
+@media (min-width: 1800px) {
+	.text-decoration:before {
+		content: 'English';
+		position: absolute;
+		z-index: -1;
+		top: 30px;
+		left: 30px;
+		font-size: 160px;
+		font-weight: 900;
+		letter-spacing: -0.02em;
+		text-transform: uppercase;
+		color: rgba(255, 255, 255, 0.1);
+	}
+}
+
+
 
 
 .gallery-link {
