@@ -7964,9 +7964,9 @@ button.quote-light-avatar.active {
 	font-weight: 600;
 }
 
-@media (max-width: 412px) {
+@media (min-width: 412px) {
 .jumbotron-3-title {
-		max-width: 330px;
+		min-width: 330px;
 }
 }
 
