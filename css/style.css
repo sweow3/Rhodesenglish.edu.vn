@@ -7994,7 +7994,7 @@ button.quote-light-avatar.active {
   }
   
   .jumbotron-3-title {
-    max-width: 90%; /* Giảm chiều rộng max trên màn hình nhỏ */
+    max-width: 100%; /* Giảm chiều rộng max trên màn hình nhỏ */
     margin: 0 auto; /* Căn giữa nếu muốn */
   }
 }
@@ -8029,7 +8029,7 @@ button.quote-light-avatar.active {
   }
   
   .jumbotron-3-title {
-    max-width: 70%;
+    max-width: 50%;
     margin: 0 auto; /* Căn giữa nếu muốn */
   }
 }
