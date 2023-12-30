@@ -7976,7 +7976,7 @@ button.quote-light-avatar.active {
 		padding-bottom: 100px;
 	}
 	.jumbotron-3-title {
-		max-width: 580px;
+		max-width: auto;
 	}
 	.jumbotron-3-text {
 		max-width: 600px;
@@ -8012,7 +8012,7 @@ button.quote-light-avatar.active {
 		top: 30px;
 		left: 30px;
 		font-size: auto;
-		font-weight: 900;
+		font-weight: 600;
 		letter-spacing: -0.02em;
 		text-transform: uppercase;
 		color: rgba(255, 255, 255, 0.1);
